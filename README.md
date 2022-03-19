@@ -43,8 +43,8 @@ echo $book->title; // 'Book about giraffes'
 
 ## ✅ Requirements
 
-- Laravel `7.0` or newer  
-- PHP `7.2` or newer
+- Laravel `9.0` or newer  
+- PHP `8.0` or newer
 
 
 ## 🔌 Installation
@@ -52,7 +52,7 @@ echo $book->title; // 'Book about giraffes'
 1. Install the package via composer.
 
 ```bash
-composer require nevadskiy/laravel-translatable
+composer require imcity-tech/laravel-translatable
 ```
 
 2. Optional. If you are not going to use translations for models with UUID primary keys, make the following:
